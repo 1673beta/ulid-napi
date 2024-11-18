@@ -1,0 +1,15 @@
+{
+  "name": "@esurio/ulid-darwin-universal",
+  "version": "0.0.0",
+  "os": [
+    "darwin"
+  ],
+  "main": "ulid.darwin-universal.node",
+  "files": [
+    "ulid.darwin-universal.node"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10"
+  }
+}
