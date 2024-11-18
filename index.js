@@ -310,6 +310,7 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { sum } = nativeBinding
+const { isValid, decodeTime } = nativeBinding
 
-module.exports.sum = sum
+module.exports.isValid = isValid
+module.exports.decodeTime = decodeTime
