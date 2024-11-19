@@ -310,7 +310,8 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { isValid, decodeTime } = nativeBinding
+const { isValid, decodeTime, ulid } = nativeBinding
 
 module.exports.isValid = isValid
 module.exports.decodeTime = decodeTime
+module.exports.ulid = ulid
